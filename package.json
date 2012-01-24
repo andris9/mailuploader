@@ -1,0 +1,29 @@
+{
+    "name": "mailuploader",
+    "description": "Parse raw e-mail contents and upload as a POST request",
+    "version": "0.1.0",
+    "author" : "Andris Reinman",
+    "maintainers":[
+        {
+            "name":"andris",
+            "email":"andris@node.ee"
+        }
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/andris9/mailuploader.git"
+    },
+    "main" : "./mailuploader",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/andris9/mailuploader/blob/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "mailparser": "*",
+        "fetch": "*"
+    },
+    "engines": ["node >=0.4.0"],
+    "keywords": ["e-mail", "mime", "parser"]
+}
