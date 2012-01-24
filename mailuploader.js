@@ -10,10 +10,18 @@ function mailUploader(fileName, targetUrl, options, callback){
         callback = options;
         options = undefined;
     }
-    
     new MailUploader(fileName, targetUrl, options, callback).parse();
 }
 
+/**
+ * 
+ * 
+ * @constructor
+ * @param {String} fileName
+ * @param {String} targetUrl
+ * @param {Object} [options]
+ * @param {Function} readyCallback
+ */
 function MailUploader(fileName, targetUrl, options, readyCallback){
     options = options || {};
     
