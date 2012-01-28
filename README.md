@@ -42,7 +42,7 @@ A POST request is made to the `targetUrl` after the e-mail has been parsed. The 
 ### Inline images in HTML body
 
 HTML body can include inline images which are pointing to an attachment. In this case the `cid` url is always in the
-following form: `cid:SHA1(filename)@node.ee` where `filename` is the filename defined with an attached file.
+following form: `cid:SHA1(filename)@node` where `filename` is the filename defined with an attached file.
 
 ### options
 
