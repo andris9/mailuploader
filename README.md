@@ -2,7 +2,7 @@
 
 Parse a raw e-mail message and post the contents (including attachments) to an URL.
 
-Attahcments are uploaded as files, other fields (subject line, text and html body etc.) as
+Attachments are uploaded as files, other fields (subject line, text and html body etc.) as
 regular POST fields.
 
 ## Usage
